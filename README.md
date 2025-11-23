@@ -29,10 +29,6 @@ You can download a similar dataset here:
 
 ---
 
-## 📦 Installation
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/spsingh132/Flower-Prediction-using-TensorFlow.git
-   cd Flower-Prediction-using-TensorFlow
+## 📦 Predictd Image
+![Flower Image](https://github.com/spsingh132/Flower_Prediction_using_TensorFlow/blob/main/predicted_image.png)
 
