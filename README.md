@@ -1,16 +1,40 @@
 # 🌸 Flower Prediction using TensorFlow
 
-This project is a **deep learning-based image classification model** that predicts the type of flower from an input image.  
-It uses **TensorFlow and Keras** with a Convolutional Neural Network (CNN) architecture for accurate predictions.
+This project focuses on building an AI-powered image classification model capable of identifying five different flower species using Convolutional Neural Networks (CNN). The model is trained using TensorFlow and achieves high accuracy in predicting the correct flower class based on image features.
 
 ---
 
-## 🚀 Features
-- Classifies flowers into multiple categories  
-- Trained using **TensorFlow/Keras**  
-- Supports **image augmentation** for better accuracy  
-- Easy to run on **local machine** or **Google Colab**  
-- Includes **saved model** for quick predictions  
+## 🌼 Flower Categories
+
+The model classifies images into the following 5 flower categories:
+
+- Orchid
+
+- Sunflower
+
+- Lily
+
+- Tulip
+
+- Lotus
+
+---
+
+## 🧠 Project Overview
+
+This project demonstrates how deep learning and computer vision can be used for flower species identification. It includes:
+
+- Image preprocessing
+
+- Data augmentation
+
+- CNN model building
+
+- Training & validation
+
+- Model evaluation
+
+- Prediction on new images 
 
 ---
 
@@ -18,6 +42,24 @@ It uses **TensorFlow and Keras** with a Convolutional Neural Network (CNN) archi
 The project uses a flower dataset with multiple classes.  
 You can download a similar dataset here:  
 [TensorFlow Flowers Dataset](https://www.tensorflow.org/datasets/catalog/tf_flowers)
+
+---
+
+🏗️ Model Architecture
+
+The CNN model includes:
+
+- Convolution layers
+
+- MaxPooling layers
+
+- Dropout
+
+- Batch Normalization
+
+- Dense layers
+
+- Softmax output layer (for 5 classes)
 
 ---
 
@@ -29,6 +71,13 @@ You can download a similar dataset here:
 
 ---
 
-## 📦 Predictd Image
+📈 Model Performance
+
+The final model achieves strong performance on the validation set.
+![Loss and Accuracy]()
+
+---
+
+## 🖼️ Predictd Image
 ![Flower Image](https://github.com/spsingh132/Flower_Prediction_using_TensorFlow/blob/main/predicted_image.png)
 
