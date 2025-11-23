@@ -74,7 +74,7 @@ The CNN model includes:
 📈 Model Performance
 
 The final model achieves strong performance on the validation set.
-![Loss and Accuracy]()
+![Loss and Accuracy](https://github.com/spsingh132/Flower_Prediction_using_TensorFlow/blob/main/loss_accuracy.png)
 
 ---
 
